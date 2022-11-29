@@ -1,0 +1,147 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+  position: relative;
+  background-color: black;
+}
+#nav-name {
+  margin-left: 120px;
+  font-size: 22px;
+}
+#nav-email {
+  margin-right: 890px;
+}
+#nav-btn {
+  margin-right: 80px;
+  border-style: none;
+}
+
+.content {
+  margin-top: 160px;
+}
+
+.footer {
+  margin-top: 90px;
+}
+
+.content-right {
+  opacity: 0.7;
+}
+.content-cv a {
+  text-decoration: none;
+}
+.chat {
+  margin-left: 1330px;
+  margin-top: -45px;
+}
+
+#site p {
+  margin-top: 65px;
+}
+
+#site a,
+.navbar a,
+.footer-network a,
+.chat a {
+  text-decoration: none;
+  color: white;
+}
+
+.hr {
+  margin-left: 0px;
+  width: 118px;
+}
+
+.chat i {
+  margin-bottom: 20px;
+}
+.shape{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border-style: solid;
+  border-width: 3px;
+  border-color: rgb(181, 232, 255);
+  background-color: rgba(0, 0, 0, 0);
+  left: 140px;
+  bottom: 60px;
+  
+}
+.shape-two{
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border-style: solid;
+  border-width: 3px;
+  border-color: rgb(255, 93, 107);
+  background-color: rgba(0, 0, 0, 0);
+  left: 32px;
+}
+.shape-three{
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: rgb(181, 232, 255);
+  left: 140px;
+  top: 50px;
+}
+
+
+
+@media only screen and (max-width: 1000px) {
+  .content {
+    margin-top: 10px;
+  }
+  .navbar {
+    display: none;
+  }
+  .content img {
+    margin-left: 200px;
+  }
+  .footer-network {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .footer-network i {
+    text-align: center;
+    margin-left: 5px;
+  }
+  #site p {
+    text-align: center;
+    margin-top: 5px;
+  }
+  .shape,.shape-two,.shape-three{
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .content img {
+    display: none;
+  }
+  .footer-network {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .footer-network i {
+    text-align: center;
+    margin-left: 5px;
+  }
+  #site p {
+    text-align: center;
+    margin-top: 5px;
+  }
+  .navbar .container-fluid #nav-name {
+    display: none;
+  }
+  .conent-left-div {
+    margin-bottom: 70px;
+  }
+}
